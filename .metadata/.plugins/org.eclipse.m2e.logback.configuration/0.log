@@ -61,3 +61,11 @@
 2018-12-04 11:44:11,167 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nicodefiggo/Documents/schule/m426/calculator/02_ConsoleCalculatorWithMaven/src/main/resources
 2018-12-04 11:44:11,173 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2018-12-04 11:44:11,173 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nicodefiggo/Documents/schule/m426/calculator/02_ConsoleCalculatorWithMaven/src/test/resources
+2018-12-04 11:47:57,334 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-04 11:47:57,334 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nicodefiggo/Documents/schule/m426/calculator/02_ConsoleCalculatorWithMaven/src/main/resources
+2018-12-04 11:47:57,336 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-04 11:47:57,336 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nicodefiggo/Documents/schule/m426/calculator/02_ConsoleCalculatorWithMaven/src/test/resources
+2018-12-04 11:49:00,144 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-04 11:49:00,145 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nicodefiggo/Documents/schule/m426/calculator/02_ConsoleCalculatorWithMaven/src/main/resources
+2018-12-04 11:49:00,147 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-04 11:49:00,147 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nicodefiggo/Documents/schule/m426/calculator/02_ConsoleCalculatorWithMaven/src/test/resources
