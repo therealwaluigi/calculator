@@ -12,5 +12,11 @@ public class CalculatorTest {
 		testee = new Calculator();
 		assertTrue(testee.summe(2, 5) == 7);
 	}
+	
+	@Test
+	public void testSubtractionZweiPositive(){
+		testee = new Calculator();
+		assertTrue(testee.subtraction(5, 2) == 3);
+	}
 
 }
