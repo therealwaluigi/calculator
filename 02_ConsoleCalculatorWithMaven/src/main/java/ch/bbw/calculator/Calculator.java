@@ -17,7 +17,7 @@ public class Calculator {
 		return zahl1/zahl2;
 	}
 
-	
+
 	/**
 	 * Private Methoden testet man nicht direkt.
 	 * Man testet die Methode, in der die private Methode aufgerufen wird.
