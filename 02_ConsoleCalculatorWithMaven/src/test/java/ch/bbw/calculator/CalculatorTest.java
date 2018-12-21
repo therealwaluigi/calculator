@@ -105,6 +105,36 @@ public class CalculatorTest {
 	@Test
 	public void testDivisionByThree() throws IllegalArgumentException{
 			testee.division(5, 2);
-	};
+	}
+
+	@Test
+	public void testDivisionZweiPositive(){
+		assertTrue(testee.division(4,2) == 2);
+	}
+
+	@Test
+	public void testDivisonZweiNegative(){
+		assertTrue(testee.division(-5, -5) == 1);
+	}
+
+	@Test
+	public void testDivisionPositivNegativ(){
+		assertTrue(testee.division(-5, 5) == -1);
+	}
+
+	@Test
+	public void testDivisionZeroByInt(){
+		assertTrue(testee.division(0, 2) == 0);
+	}
+
+	@Test
+	public void testDivisionNegativPositiv(){
+		assertTrue(testee.division(5, -5) == -1);
+	}
+	@Test
+	public void testDivisionNotInt(){
+		assertTrue(testee.division(1,5) == 0);
+	}
+
 
 }
