@@ -8,3 +8,4 @@ deploy:
   file: target/02_ConsoleCalculatorWithMaven-0.0.1-SNAPSHOT.jar
   on:
     repo: therealwaluigi/calculator
+    tags: true
