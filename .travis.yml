@@ -1,3 +1,10 @@
 language: java
 sudo: false
 script: mvn install
+deploy:
+  provider: releases
+  api_key:
+    secure: volC3JaCJoHKOZQEdSJsTLTEUbGtl2j4hoD16JomuEAc02qcadiHmqSshGyy1hod/97sz7INvKadthRUWMZ6ek4TfsMx/3IpxLqWwx/LbPS9Ymbjl1SaFSTmORrGc/S4teAUbqRjapLfYwd3PP25dZ4dQ6WTvI4shIN5doKSnPfjGNiMqBuk6XoExU75tGZUBumaUslbgfvtK0glEPxqh7ThAZIINALJyQLTWgXKRKzSsuQm4xs/e2H7+5ZXhQb0LliZ1OLkoDX+HMV92gyjla1DWmc8CJB0nzYD02pK1DpkGkcqqwqgs30faAgMz3VUMNNzWu7ck/Grd2v9EEZEFmef8kwXPNH/vPkMnxqeOrSyVVTzm4rXu63tPXbn3haVjeGaZxDAm9rc0m4sTywhdHtccnOpWSh9VFowcxsCcAyjDYS7M3qtUstcp5s4twrWLpjtRDXVzDEgOjKGK+GbaDxjTZ3kdIzRSW8/F2z8dovL9f+hZ/DSXOEFXNpj2yQ5N5EMA/zzdhAxtKmKcZSAnpIg+0pL0GmHyEaAjkql2nU43iA1WcXLoNYfrJiYsoPA2NZbvKR+2c2ETL8YnvfebLY1oXrunievyCkulDqp88gPeir7I7neVTsHlh0JfFUyBbpsi0vF5kUH7b8pGLXrFer/B1TPzNi0zroFo/Z/GMU=
+  file: target/02_ConsoleCalculatorWithMaven-0.0.1-SNAPSHOT.jar
+  on:
+    repo: therealwaluigi/calculator
